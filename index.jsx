@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/contact",
+        path: "contact",
         element: (
           <h1 style={{ textAlign: "center", marginTop: "2rem" }}>
             Contact Uss!
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/:countryDetail",
+        path: ":countryDetail",
         element: <CountryDetail />,
       },
     ],
